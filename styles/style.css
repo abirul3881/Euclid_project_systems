@@ -12,11 +12,18 @@ ul {
 
 /* Header */
 
-.header {
+.header__container {
 	display: flex;
+	max-width: 1920px;
 }
 .header__logo {
 	width: 224px;
 	height: 72px;
 	padding: 14px 0px 14px 75px;
+}
+.header__nav {
+	margin-left: auto;
+}
+.header__nav-list {
+	display: flex;
 }
