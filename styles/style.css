@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Header */
+
+.header {
+	display: flex;
+}
+.header__logo {
+	width: 224px;
+	height: 72px;
+	padding: 14px 0px 14px 75px;
+}
