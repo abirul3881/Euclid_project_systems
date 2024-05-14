@@ -15,7 +15,6 @@ ul {
 .header__container {
 	display: flex;
 	max-width: 1920px;
-	margin: 0 auto;
 }
 .header__logo {
 	width: 224px;
@@ -48,13 +47,13 @@ ul {
 
 .main {
 	max-width: 1770px;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin: 0 auto;
 }
 .main__scroll {
 	width: 1770px;
 	background-image: url('/imeges/low-angle-photo-of-balconies-2462015\ 1.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .main__heading {
 	font-size: 70px;
@@ -70,7 +69,29 @@ ul {
 	color: #ffffff;
 	padding: 0px 900px 90px 80px;
 }
-
+.main__form {
+	padding-left: 80px;
+	padding-bottom: 55px;
+}
+.main__btn {
+	width: 280px;
+	height: 78px;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	background-color: #ff9900;
+	border-color: #ff9900;
+}
+.main__scroll-buttons {
+	padding: 0px 0px 30px 843px;
+}
+.main__scroll-buttons-img {
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+}
 /* Header media*/
 
 @media (max-width: 1920px) and (min-width: 1021px) {
@@ -78,24 +99,75 @@ ul {
 		display: none;
 	}
 }
-@media (max-width: 1020px) {
-	.header__logo {
-		width: 150px;
-		height: 40px;
-		padding: 26px 437px 26px 437px;
-	}
-}
-
-@media (max-width: 1020px) {
+@media (max-width: 1020px) and (min-width: 769px) {
 	.header__nav-item {
 		display: none;
 	}
 }
-@media (max-width: 1020px) {
+@media (max-width: 1024px) and (min-width: 769px) {
+	.header__container {
+		width: 1024px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
 	.header__menu {
 		width: 30px;
 		height: 32px;
 		margin-top: 38px;
 		margin-left: 75px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
+	.header__logo {
+		width: 150px;
+		height: 40px;
+		margin-left: 220px;
+	}
+}
+
+/* Main scroll media */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.main {
+		max-width: 1024px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
+	.main__scroll {
+		width: 924px;
+		margin-left: 50px;
+		margin-right: 50px;
+		background-image: url('/imeges/low-angle-photo-of-balconies-2462015\ 1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1020px) and (min-width: 769px) {
+	.main__heading {
+		font-size: 60px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: ExtraBold;
+		color: #ffffff;
+		padding: 160px 77px 16px 77px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
+	.main__subheading {
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		color: #ffffff;
+		padding: 0px 187px 60px 77px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
+	.main__form {
+		padding: 60px 567px 115px 77px;
+	}
+}
+@media (max-width: 1020px) and (min-width: 769px) {
+	.main__scroll-buttons {
+		padding: 0px 400px 115px 400px;
 	}
 }
