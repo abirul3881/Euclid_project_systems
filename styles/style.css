@@ -153,14 +153,48 @@ ul {
 	margin-bottom: -617px;
 	opacity: 0.5;
 }
+
 .main__about-block-head {
 	display: flex;
 	max-width: 870px;
 }
+.main__about-block-right-img {
+	width: 195px;
+	height: 165px;
+	margin: 65px 50px 65px 92px;
+}
+.main__about-block-right-heding {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #333333;
+	margin-top: 65px;
+}
+.main__about-block-right-head-text {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #333333;
+}
+
 .main__about-block-foot {
 	display: flex;
 	max-width: 870px;
 }
+.main__about-block-right-img-foot {
+	width: 195px;
+	height: 165px;
+	margin: 97px 50px 65px 92px;
+}
+.main__about-block-foot-heding {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #333333;
+	margin-top: 97px;
+}
+
+/* Main about work */
 
 /* Header media*/
 
