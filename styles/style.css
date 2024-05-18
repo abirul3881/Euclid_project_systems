@@ -250,6 +250,18 @@ ul {
 	.main__scroll-buttons {
 		padding: 0px 400px 115px 400px;
 	}
+	.main__about {
+		max-width: 925px;
+		margin-left: 49px;
+	}
+	.main__about-info {
+		display: block;
+	}
+	.main__about-block-left {
+		max-width: 924px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 }
 
 /* Header media 768px */
@@ -298,6 +310,10 @@ ul {
 	}
 	.main__scroll-buttons {
 		padding: 0px 250px 30px 292px;
+	}
+	.main__about {
+		max-width: 668px;
+		margin-left: 50px;
 	}
 }
 
@@ -351,5 +367,16 @@ ul {
 		width: 162px;
 		height: 40px;
 		font-size: 12px;
+	}
+	.main__about {
+		max-width: 290px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.main__about-heading {
+		font-size: 24px;
+	}
+	.main__about-text {
+		font-size: 14px;
 	}
 }
