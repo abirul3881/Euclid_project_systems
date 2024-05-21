@@ -236,7 +236,6 @@ ul {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color: #333333;
-	padding-right: 142px;
 	padding-bottom: 50px;
 }
 .main__about-work-steep-form {
@@ -260,6 +259,11 @@ ul {
 	background-color: white;
 	border-color: #333333;
 	padding: 20px 38px;
+}
+.main__about-work-steep-img {
+	max-width: 870px;
+	margin-left: 142px;
+	margin-right: auto;
 }
 
 /* Header media*/
@@ -326,6 +330,18 @@ ul {
 	.main__about-block-left {
 		max-width: 924px;
 		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.main__about-work {
+		max-width: 924px;
+		margin-left: 50px;
+	}
+	.main__about-work-steep-text {
+		max-width: 437px;
+	}
+	.main__about-work-steep-img {
+		max-width: 437px;
+		margin-top: 62px;
 		margin-right: 50px;
 	}
 }
