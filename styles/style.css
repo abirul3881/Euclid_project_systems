@@ -302,6 +302,39 @@ ul {
 	margin-left: auto;
 }
 
+/* Footer */
+
+.footer {
+	display: flex;
+	max-width: 1920px;
+	background-color: #222222;
+}
+.footer__logo {
+	width: 224px;
+	height: 72px;
+	margin: 50px 377px 20px 75px;
+}
+.footer__item {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	padding: 10px 0px 0px 75px;
+}
+.footer__link {
+	color: #cacaca;
+}
+.footer__link:hover {
+	color: #ff9900;
+}
+.footer__social-media {
+	padding: 90px 0px 50px 75px;
+}
+.footer__social-media-item {
+	width: 60px;
+	height: 60px;
+	margin-right: 25px;
+}
+
 /* Header media*/
 
 @media (max-width: 1920px) and (min-width: 1021px) {
