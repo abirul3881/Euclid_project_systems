@@ -306,13 +306,13 @@ ul {
 
 .footer {
 	display: flex;
-	max-width: 1920px;
+	width: 1920px;
 	background-color: #222222;
 }
 .footer__logo {
 	width: 224px;
 	height: 72px;
-	margin: 50px 377px 20px 75px;
+	margin: 50px 0px 20px 75px;
 }
 .footer__item {
 	font-size: 18px;
@@ -332,7 +332,54 @@ ul {
 .footer__social-media-item {
 	width: 60px;
 	height: 60px;
+	margin-right: 10px;
+}
+.footer__form-heading {
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #cacaca;
+	padding: 0px 300px 25px 350px;
+}
+.footer__input-item:not(:last-child) {
+	width: 570px;
+	height: 60px;
+	margin-bottom: 25px;
+	margin-left: 350px;
+}
+.footer__input-item {
+	width: 570px;
+	height: 150px;
+	margin-bottom: 25px;
+	margin-left: 350px;
+}
+.footer__btn {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #ff9900;
+	border-color: #ff9900;
+	padding: 19px 52px;
 	margin-right: 25px;
+	margin-bottom: 50px;
+	margin-left: 350px;
+}
+.footer__checkbox-text {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	margin-left: 5px;
+}
+.footer__block-right {
+	padding: 170px 75px 0px 236px;
+}
+.footer__block-right-text {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #cacaca;
 }
 
 /* Header media*/
