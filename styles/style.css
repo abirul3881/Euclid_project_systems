@@ -468,6 +468,26 @@ ul {
 	.main__questions-line {
 		max-width: 924px;
 	}
+	.footer {
+		max-width: 1020px;
+	}
+	.footer__block-right {
+		display: none;
+	}
+	.footer__form-heading {
+		padding: 0px 0px 25px 110px;
+	}
+	.footer__input-item:not(:last-child) {
+		width: 541px;
+		margin-left: 110px;
+	}
+	.footer__input-item {
+		width: 541px;
+		margin-left: 110px;
+	}
+	.footer__btn {
+		margin-left: 110px;
+	}
 }
 
 /* Header media 768px */
