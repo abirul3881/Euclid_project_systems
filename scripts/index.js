@@ -1,3 +1,6 @@
 window.addEventListener('DOMContentLoaded', function () {
-	console.log(document.querySelectorAll('.footer__item'))
+	a = document.querySelector('.main__btn')
+	a.addEventListener('click', function (event) {
+		event.target.style.backgroundColor = 'red'
+	})
 })
